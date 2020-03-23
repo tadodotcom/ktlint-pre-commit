@@ -8,7 +8,8 @@ KTLINT="${CACHE}/ktlint-${VERSION}"
 mkdir -p "${CACHE}"
 if [ ! -f "${KTLINT}" ]
 then
-    curl -SLf "${REPOSITORY}/releases/download/$VERSION/ktlint" > "${KTLINT}"
+    echo "Installing ${KTLINT}"
+    curl -#SLf "${REPOSITORY}/releases/download/$VERSION/ktlint" > "${KTLINT}"
     chmod 755 "${KTLINT}"
 fi
 
