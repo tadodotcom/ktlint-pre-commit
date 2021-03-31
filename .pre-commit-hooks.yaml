@@ -1,5 +1,5 @@
 -   id: ktlint
-    name: Ktlint formatter for your kotlin code 
+    name: ktlint
     description: Runs ktlint over your kotlin files
     entry: ./run-ktlint.sh
     language: script
