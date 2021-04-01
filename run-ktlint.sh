@@ -1,4 +1,6 @@
 #!/usr/bin/env sh
+set -euo pipefail
+IFS=$'\n\t'
 
 REPOSITORY="https://github.com/pinterest/ktlint"
 VERSION=0.41.0
