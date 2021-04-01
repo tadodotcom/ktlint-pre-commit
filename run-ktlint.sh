@@ -10,7 +10,7 @@ SUCCESS_FILE="${CACHE}/download-finished-${VERSION}"
 LOCKFILE="${CACHE}/pre-commit-ktlint-download.lock"
 
 # make sure that lock file gets cleanup up in all cases
-trap 'rm -f ${LOCKFILE}' EXIT
+trap "rm -f ${LOCKFILE}" EXIT
 
 mkdir -p "${CACHE}"
 if [ ! -f "${SUCCESS_FILE}" ]
