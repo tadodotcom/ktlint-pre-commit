@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
-set -euo pipefail
+set -eu
 IFS=$'\n\t'
 
 REPOSITORY="https://github.com/pinterest/ktlint"
