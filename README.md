@@ -5,8 +5,8 @@ Usage:
 
 ```
 repos:
-- repo: https://github.com/maltzj/ktlint-pre-commit
-  rev: master
+- repo: https://github.com/tadodotcom/ktlint-pre-commit
+  rev: "0.41.0-1"
   hooks:
       - id: ktlint
 ```
@@ -14,8 +14,8 @@ repos:
 If you want to make use of the formatting functionality of ktlint you can configure
 the hook as follows:
 repos:
-- repo: https://github.com/maltzj/ktlint-pre-commit
-  rev: master
+- repo: https://github.com/tadodotcom/ktlint-pre-commit
+  rev: "0.41.0-1"
   hooks:
       - id: ktlint
         args: [-F]
