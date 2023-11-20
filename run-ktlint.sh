@@ -3,7 +3,7 @@ set -eu
 IFS=$'\n\t'
 
 REPOSITORY="https://github.com/pinterest/ktlint"
-VERSION=0.45.2
+VERSION=1.0.1
 CACHE=".cache"
 KTLINT="${CACHE}/ktlint-${VERSION}"
 SUCCESS_FILE="${CACHE}/download-finished-${VERSION}"

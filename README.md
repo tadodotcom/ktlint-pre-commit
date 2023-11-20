@@ -6,7 +6,7 @@ Usage:
 ```
 repos:
 - repo: https://github.com/tadodotcom/ktlint-pre-commit
-  rev: "0.45.2-1"
+  rev: "1.0.1"
   hooks:
       - id: ktlint
 ```
@@ -17,7 +17,7 @@ the hook as follows:
 ```
 repos:
 - repo: https://github.com/tadodotcom/ktlint-pre-commit
-  rev: "0.45.2-1"
+  rev: "1.0.1"
   hooks:
       - id: ktlint
         args: [-F]
